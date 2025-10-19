@@ -3,8 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Privacy Policy - Bible Launcher
-</title>
+    <title>Privacy Policy - Bible Launcher</title>
     <style>
         * {
             margin: 0;
@@ -13,397 +12,467 @@
         }
 
         body {
-            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif;
             line-height: 1.6;
             color: #333;
-            background-color: #f8f9fa;
+            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+            padding: 20px;
         }
 
         .container {
             max-width: 900px;
             margin: 0 auto;
-            padding: 40px 20px;
-            background-color: white;
-            box-shadow: 0 0 20px rgba(0,0,0,0.1);
+            background: white;
+            padding: 40px;
+            border-radius: 12px;
+            box-shadow: 0 10px 40px rgba(0, 0, 0, 0.2);
         }
 
-        .header {
+        h1 {
+            color: #667eea;
+            font-size: 2.5em;
+            margin-bottom: 10px;
             text-align: center;
-            margin-bottom: 50px;
-            padding-bottom: 30px;
-            border-bottom: 3px solid #007bff;
         }
 
-        .header h1 {
-            font-size: 2.5rem;
-            color: #2c3e50;
-            margin-bottom: 10px;
-            font-weight: 300;
+        .subtitle {
+            text-align: center;
+            color: #666;
+            font-size: 0.95em;
+            margin-bottom: 30px;
+            padding-bottom: 20px;
+            border-bottom: 2px solid #f0f0f0;
         }
 
-        .header .subtitle {
-            font-size: 1.1rem;
-            color: #6c757d;
-            margin-bottom: 20px;
+        .intro {
+            background: #f8f9ff;
+            padding: 15px 20px;
+            border-left: 4px solid #667eea;
+            margin-bottom: 30px;
+            border-radius: 4px;
         }
 
-        .last-updated {
-            background-color: #e9ecef;
-            padding: 10px 20px;
-            border-radius: 5px;
-            display: inline-block;
-            font-size: 0.9rem;
-            color: #495057;
-        }
-
-        .toc {
-            background-color: #f8f9fa;
-            padding: 30px;
-            border-radius: 10px;
-            margin-bottom: 40px;
-        }
-
-        .toc h2 {
-            color: #2c3e50;
-            margin-bottom: 20px;
-            font-size: 1.5rem;
-        }
-
-        .toc ul {
-            list-style: none;
-            padding-left: 0;
-        }
-
-        .toc li {
-            margin-bottom: 10px;
-            padding: 8px 0;
-            border-bottom: 1px solid #dee2e6;
-        }
-
-        .toc li:last-child {
-            border-bottom: none;
-        }
-
-        .toc a {
-            color: #007bff;
-            text-decoration: none;
-            font-weight: 500;
-            transition: color 0.3s ease;
-        }
-
-        .toc a:hover {
-            color: #0056b3;
-            text-decoration: underline;
-        }
-
-        .section {
-            margin-bottom: 50px;
-            padding: 30px;
-            border-left: 4px solid #007bff;
-            background-color: #f8f9fa;
-            border-radius: 0 10px 10px 0;
-        }
-
-        .section h2 {
-            color: #2c3e50;
-            font-size: 1.8rem;
-            margin-bottom: 20px;
-            font-weight: 400;
-        }
-
-        .section h3 {
-            color: #495057;
-            font-size: 1.3rem;
-            margin: 25px 0 15px 0;
-            font-weight: 500;
-        }
-
-        .section p {
+        h2 {
+            color: #764ba2;
+            font-size: 1.5em;
+            margin-top: 35px;
             margin-bottom: 15px;
-            text-align: justify;
+            padding-bottom: 10px;
+            border-bottom: 2px solid #f0f0f0;
         }
 
-        .highlight-box {
-            background-color: #e3f2fd;
-            border-left: 4px solid #2196f3;
-            padding: 20px;
-            margin: 20px 0;
-            border-radius: 0 5px 5px 0;
+        h3 {
+            color: #555;
+            font-size: 1.2em;
+            margin-top: 20px;
+            margin-bottom: 10px;
         }
 
-        .highlight-box strong {
-            color: #1565c0;
+        p {
+            margin-bottom: 15px;
+            color: #444;
         }
 
-        ul, ol {
-            margin: 15px 0;
-            padding-left: 30px;
+        ul {
+            margin-left: 25px;
+            margin-bottom: 15px;
         }
 
         li {
             margin-bottom: 8px;
+            color: #444;
         }
 
-        .contact-info {
-            background-color: #fff3cd;
-            border: 1px solid #ffeaa7;
-            padding: 20px;
-            border-radius: 10px;
+        .section {
+            margin-bottom: 30px;
+        }
+
+        .highlight {
+            background: #fff3cd;
+            padding: 15px;
+            border-left: 4px solid #ffc107;
             margin: 20px 0;
+            border-radius: 4px;
         }
 
-        .contact-info h3 {
-            color: #856404;
-            margin-bottom: 15px;
+        .contact-box {
+            background: #e8f4f8;
+            padding: 20px;
+            border-radius: 8px;
+            margin: 30px 0;
+            border: 2px solid #667eea;
         }
 
-        .contact-info p {
-            margin-bottom: 10px;
+        .contact-box h3 {
+            color: #667eea;
+            margin-top: 0;
         }
 
-        .contact-info a {
-            color: #007bff;
-            text-decoration: none;
+        .contact-box p {
+            margin: 5px 0;
         }
 
-        .contact-info a:hover {
-            text-decoration: underline;
+        .info-box {
+            background: #f0f7ff;
+            padding: 15px 20px;
+            border-left: 4px solid #2196f3;
+            margin: 20px 0;
+            border-radius: 4px;
         }
 
         .footer {
             text-align: center;
-            margin-top: 50px;
-            padding-top: 30px;
-            border-top: 2px solid #dee2e6;
-            color: #6c757d;
+            margin-top: 40px;
+            padding-top: 20px;
+            border-top: 2px solid #f0f0f0;
+            color: #666;
+            font-size: 0.9em;
+        }
+
+        a {
+            color: #667eea;
+            text-decoration: none;
+        }
+
+        a:hover {
+            text-decoration: underline;
         }
 
         .back-to-top {
             position: fixed;
             bottom: 20px;
             right: 20px;
-            background-color: #007bff;
+            background-color: #667eea;
             color: white;
-            padding: 10px 15px;
+            padding: 12px 16px;
             border-radius: 50px;
             text-decoration: none;
             font-size: 0.9rem;
-            box-shadow: 0 2px 10px rgba(0,0,0,0.2);
+            box-shadow: 0 4px 15px rgba(102, 126, 234, 0.4);
             transition: all 0.3s ease;
         }
 
         .back-to-top:hover {
-            background-color: #0056b3;
+            background-color: #764ba2;
             transform: translateY(-2px);
+            box-shadow: 0 6px 20px rgba(118, 75, 162, 0.5);
         }
 
         @media (max-width: 768px) {
             .container {
-                padding: 20px 10px;
-            }
-            
-            .header h1 {
-                font-size: 2rem;
-            }
-            
-            .section {
                 padding: 20px;
+            }
+
+            h1 {
+                font-size: 2em;
+            }
+
+            h2 {
+                font-size: 1.3em;
             }
         }
     </style>
 </head>
 <body>
     <div class="container">
-        <header class="header">
-            <h1>Privacy Policy</h1>
-            <p class="subtitle">Bible Launcher</p>
-            <div class="last-updated">Last Updated: January 2024</div>
-        </header>
+        <h1>Privacy Policy</h1>
+        <div class="subtitle">
+            Bible Launcher<br>
+            Last Updated: October 19, 2025
+        </div>
 
-        <div class="toc">
-            <h2>Table of Contents</h2>
+        <div class="intro">
+            <strong>Bible Launcher</strong> is developed and operated by an independent developer as a personal project. We are committed to protecting your privacy and being transparent about our data practices.
+        </div>
+
+        <div class="highlight">
+            <p><strong>Quick Summary:</strong> We collect minimal anonymous data for analytics, we don't collect personal information, we don't sell your data, and you have full control over your privacy.</p>
+        </div>
+
+        <div class="section">
+            <h2>1. Information We Collect</h2>
+            
+            <h3>1.1 Anonymous Usage Data</h3>
+            <p>We collect anonymous usage data through <strong>Amplitude Analytics</strong> to improve the App:</p>
             <ul>
-                <li><a href="#introduction">Introduction</a></li>
-                <li><a href="#information-collection">1. Information We Collect</a></li>
-                <li><a href="#information-use">2. How We Use Your Information</a></li>
-                <li><a href="#information-sharing">3. Information Sharing</a></li>
-                <li><a href="#data-retention">4. Data Retention</a></li>
-                <li><a href="#your-rights">5. Your Privacy Rights</a></li>
-                <li><a href="#data-security">6. Data Security</a></li>
-                <li><a href="#children-privacy">7. Children's Privacy</a></li>
-                <li><a href="#updates">8. Policy Updates</a></li>
-                <li><a href="#contact">9. Contact Us</a></li>
+                <li><strong>Feature usage:</strong> Which features you use (Bible reading, prayers, AI generator)</li>
+                <li><strong>Interaction patterns:</strong> How you navigate the app</li>
+                <li><strong>Technical data:</strong> Device type, Android version, app version</li>
+                <li><strong>Performance data:</strong> Crash reports, load times, errors</li>
+                <li><strong>Anonymous user ID:</strong> A randomly generated ID stored locally on your device</li>
+            </ul>
+
+            <div class="info-box">
+                <p><strong>Important:</strong> This data is completely anonymous. We cannot identify you personally from this data.</p>
+            </div>
+
+            <h3>1.2 User-Created Content (Stored Locally Only)</h3>
+            <p>The following data is stored <strong>only on your device</strong> and never sent to our servers:</p>
+            <ul>
+                <li>Bible bookmarks, highlights, and notes</li>
+                <li>Reading progress and history</li>
+                <li>Prayer streak data</li>
+                <li>AI prayer generation requests and results</li>
+                <li>App preferences and settings</li>
+            </ul>
+
+            <h3>1.3 What We DO NOT Collect</h3>
+            <p>We do not collect:</p>
+            <ul>
+                <li>Your name, email, or phone number</li>
+                <li>Location data</li>
+                <li>Contacts or personal files</li>
+                <li>Payment information (app is free)</li>
+                <li>Biometric data</li>
+                <li>Any personally identifiable information (PII)</li>
             </ul>
         </div>
 
-        <section id="introduction" class="section">
-            <h2>Introduction</h2>
-            <p>Welcome to Bible Offline -KJV Verse Audio, operated by Maple Leaf Inc. We are committed to protecting your privacy and ensuring the security of your personal information. This Privacy Policy explains how we collect, use, disclose, and safeguard your information when you use our mobile application and related services.</p>
-            
-            <div class="highlight-box">
-                <p><strong>Quick Summary:</strong> We collect minimal personal information necessary to provide our services, we don't sell your data, and you have control over your information.</p>
-            </div>
-            
-            <p>By using our app, you agree to the collection and use of information in accordance with this policy. If you do not agree with our policies and practices, please do not use our services.</p>
-        </section>
-
-        <section id="information-collection" class="section">
-            <h2>1. Information We Collect</h2>
-            
-            <h3>Personal Information You Provide</h3>
-            <p>We collect information that you voluntarily provide to us when you:</p>
-            <ul>
-                <li>Create an account or profile</li>
-                <li>Use our app features and services</li>
-                <li>Contact us for support</li>
-                <li>Participate in surveys or feedback</li>
-            </ul>
-            
-            <h3>Information We Collect Automatically</h3>
-            <p>When you use our app, we may automatically collect:</p>
-            <ul>
-                <li><strong>Device Information:</strong> Device type, operating system, unique device identifiers</li>
-                <li><strong>Usage Data:</strong> App features used, time spent in app, crash reports</li>
-                <li><strong>Location Data:</strong> General location (if you grant permission)</li>
-            </ul>
-            
-            <h3>Push Notifications</h3>
-            <p>We may send you push notifications about app updates, devotional reminders, or important announcements. You can opt out of these notifications through your device settings.</p>
-            
-            <div class="highlight-box">
-                <p><strong>Note:</strong> We do not collect sensitive personal information such as financial data, health information, or political views.</p>
-            </div>
-        </section>
-
-        <section id="information-use" class="section">
+        <div class="section">
             <h2>2. How We Use Your Information</h2>
             
-            <p>We use the information we collect to:</p>
+            <p>We use anonymous analytics data to:</p>
             <ul>
-                <li><strong>Provide Services:</strong> Deliver app features, personalized content, and user support</li>
-                <li><strong>Improve Our App:</strong> Analyze usage patterns to enhance functionality and user experience</li>
-                <li><strong>Communicate:</strong> Send important updates, respond to inquiries, and provide customer support</li>
-                <li><strong>Ensure Security:</strong> Protect against fraud, abuse, and unauthorized access</li>
-                <li><strong>Comply with Legal Requirements:</strong> Meet applicable laws and regulations</li>
+                <li><strong>Improve the App:</strong> Understand which features are popular and which need improvement</li>
+                <li><strong>Fix bugs:</strong> Identify and resolve technical issues</li>
+                <li><strong>Optimize performance:</strong> Make the app faster and more reliable</li>
+                <li><strong>Develop new features:</strong> Build features users actually want</li>
+                <li><strong>Understand user behavior:</strong> See how people use the app to improve UX</li>
             </ul>
+
+            <p><strong>We never use your data to:</strong></p>
+            <ul>
+                <li>Target you with personalized ads</li>
+                <li>Sell to third parties</li>
+                <li>Track your personal identity</li>
+                <li>Share with data brokers</li>
+            </ul>
+        </div>
+
+        <div class="section">
+            <h2>3. Third-Party Services</h2>
             
-            <h3>Google API Services</h3>
+            <p>The App integrates with the following third-party services. Each has its own privacy policy:</p>
+
+            <h3>3.1 Google Gemini API</h3>
+            <p><strong>Purpose:</strong> AI prayer generation</p>
+            <p><strong>Data shared:</strong> Your prayer request text (processed in real-time, not stored)</p>
+            <p><strong>Privacy Policy:</strong> <a href="https://policies.google.com/privacy" target="_blank">Google Privacy Policy</a></p>
+
+            <h3>3.2 Google AdMob</h3>
+            <p><strong>Purpose:</strong> Display advertisements to support free access</p>
+            <p><strong>Data collected:</strong> Device identifiers, ad interaction data</p>
+            <p><strong>Privacy Policy:</strong> <a href="https://policies.google.com/privacy" target="_blank">Google AdMob Privacy</a></p>
+            <p><strong>Opt-out:</strong> You can opt out of personalized ads in your device settings (Android: Settings → Google → Ads)</p>
+
+            <h3>3.3 Amplitude Analytics</h3>
+            <p><strong>Purpose:</strong> Anonymous usage analytics</p>
+            <p><strong>Data collected:</strong> Anonymous user ID, feature usage, device type</p>
+            <p><strong>Privacy Policy:</strong> <a href="https://amplitude.com/privacy" target="_blank">Amplitude Privacy Policy</a></p>
+
+            <h3>3.4 Google Firebase</h3>
+            <p><strong>Purpose:</strong> Crash reporting and performance monitoring</p>
+            <p><strong>Data collected:</strong> Crash logs, device information</p>
+            <p><strong>Privacy Policy:</strong> <a href="https://firebase.google.com/support/privacy" target="_blank">Firebase Privacy</a></p>
+
+            <div class="info-box">
+                <p><strong>Note:</strong> We have no control over these third-party services' data practices. Please review their privacy policies for details.</p>
+            </div>
+        </div>
+
+        <div class="section">
+            <h2>4. Android Permissions</h2>
+            
+            <p>The App requests the following permissions:</p>
+
+            <h3>4.1 INTERNET</h3>
+            <p><strong>Purpose:</strong> AI prayer generation, ads, analytics</p>
+            <p><strong>Required:</strong> Yes (for AI features and ads)</p>
+
+            <h3>4.2 SYSTEM_ALERT_WINDOW</h3>
+            <p><strong>Purpose:</strong> Display prayer overlay reminders at scheduled times</p>
+            <p><strong>Required:</strong> Optional (you can disable prayer overlays)</p>
+
+            <h3>4.3 POST_NOTIFICATIONS</h3>
+            <p><strong>Purpose:</strong> Quick access notification and prayer reminders</p>
+            <p><strong>Required:</strong> Optional (Android 13+, you can deny this)</p>
+
+            <p>You can manage all permissions in your device Settings → Apps → Bible Launcher → Permissions.</p>
+        </div>
+
+        <div class="section">
+            <h2>5. Data Retention</h2>
+            
+            <p><strong>Anonymous Analytics Data:</strong></p>
+            <ul>
+                <li>Retained by Amplitude for up to 90 days</li>
+                <li>Used only for aggregate analysis</li>
+                <li>Automatically deleted after retention period</li>
+            </ul>
+
+            <p><strong>Local Device Data:</strong></p>
+            <ul>
+                <li>Bookmarks, notes, highlights: Stored until you delete the app</li>
+                <li>Prayer streak data: Stored until you delete the app</li>
+                <li>Settings: Stored until you clear app data</li>
+            </ul>
+
+            <p><strong>AI Prayer Requests:</strong></p>
+            <ul>
+                <li>Sent to Google Gemini API in real-time</li>
+                <li>Not stored by us (only cached temporarily in your device)</li>
+                <li>Subject to Google's retention policies</li>
+            </ul>
+        </div>
+
+        <div class="section">
+            <h2>6. Your Privacy Rights</h2>
+            
+            <p>You have the right to:</p>
+            
+            <ul>
+                <li><strong>Opt out of analytics:</strong> We can add a toggle in settings to disable Amplitude tracking</li>
+                <li><strong>Delete your data:</strong> Uninstall the app to remove all local data</li>
+                <li><strong>Control permissions:</strong> Manage notification and overlay permissions in device settings</li>
+                <li><strong>Opt out of personalized ads:</strong> Use Android's ad settings (Settings → Google → Ads)</li>
+            </ul>
+
+            <h3>Data Subject Access Requests</h3>
+            <p>Since we don't collect personally identifiable information, there's no personal data to request. However, if you have questions about data practices, contact us at <a href="mailto:mapleleafinc23@gmail.com">mapleleafinc23@gmail.com</a>.</p>
+        </div>
+
+        <div class="section">
+            <h2>7. Data Security</h2>
+            
+            <p>We implement appropriate security measures:</p>
+            <ul>
+                <li><strong>Local storage:</strong> Your bookmarks, notes, and preferences stay on your device</li>
+                <li><strong>HTTPS encryption:</strong> All network requests use secure connections</li>
+                <li><strong>No cloud storage:</strong> We don't store your personal Bible study data on servers</li>
+                <li><strong>Anonymous IDs:</strong> User tracking uses random UUIDs, not personal identifiers</li>
+            </ul>
+
+            <p>However, no method of transmission over the internet is 100% secure. While we strive to protect your data, we cannot guarantee absolute security.</p>
+        </div>
+
+        <div class="section">
+            <h2>8. Children's Privacy</h2>
+            
+            <p>Bible Launcher is not intended for children under 13 years of age. We do not knowingly collect personal information from children under 13.</p>
+            
+            <p>If you are under 13, please do not use the App or provide any information. If we become aware that we have collected data from a child under 13, we will delete it promptly.</p>
+
+            <p>If you are a parent or guardian and believe your child has provided us with information, please contact us at <a href="mailto:mapleleafinc23@gmail.com">mapleleafinc23@gmail.com</a>.</p>
+        </div>
+
+        <div class="section">
+            <h2>9. Information Sharing</h2>
+            
+            <p><strong>We do NOT sell, trade, or rent your data to third parties.</strong></p>
+
+            <p>We may share anonymous data with:</p>
+            <ul>
+                <li><strong>Amplitude:</strong> For anonymous usage analytics</li>
+                <li><strong>Google (AdMob):</strong> For ad serving (they collect device IDs)</li>
+                <li><strong>Google (Firebase):</strong> For crash reporting</li>
+                <li><strong>Google (Gemini API):</strong> For AI prayer generation (your requests are processed but not stored by us)</li>
+            </ul>
+
+            <p>Legal Disclosure: We may disclose information if required by law or to protect our rights and safety.</p>
+        </div>
+
+        <div class="section">
+            <h2>10. Google API Services</h2>
+            
             <p>Our use of information received from Google APIs adheres to the <a href="https://developers.google.com/terms/api-services-user-data-policy" target="_blank">Google API Services User Data Policy</a>, including the <a href="https://developers.google.com/terms/api-services-user-data-policy#limited-use" target="_blank">Limited Use requirements</a>.</p>
-        </section>
 
-        <section id="information-sharing" class="section">
-            <h2>3. Information Sharing and Disclosure</h2>
-            
-            <p>We respect your privacy and do not sell, trade, or rent your personal information to third parties. We may share your information only in the following limited circumstances:</p>
-            
+            <p>Specifically:</p>
             <ul>
-                <li><strong>Service Providers:</strong> With trusted third-party companies that help us operate our app (analytics, cloud storage, customer support)</li>
-                <li><strong>Legal Requirements:</strong> When required by law, court order, or to protect our rights and safety</li>
-                <li><strong>Business Transfers:</strong> In connection with a merger, acquisition, or sale of assets (with notice to users)</li>
-                <li><strong>Consent:</strong> When you explicitly consent to sharing your information</li>
+                <li>We use Google Gemini API only for AI prayer generation</li>
+                <li>Your prayer requests are sent to Google's servers for processing</li>
+                <li>We do not store or share your prayer requests beyond this API call</li>
+                <li>Google may process this data according to their privacy policy</li>
             </ul>
-            
-            <div class="highlight-box">
-                <p><strong>Commitment:</strong> We have not disclosed, sold, or shared any personal information to third parties for business or commercial purposes in the past 12 months, and we will not do so in the future.</p>
-            </div>
-        </section>
+        </div>
 
-        <section id="data-retention" class="section">
-            <h2>4. Data Retention</h2>
+        <div class="section">
+            <h2>11. Cookies and Tracking</h2>
             
-            <p>We retain your personal information only as long as necessary to:</p>
+            <p>Bible Launcher does not use cookies. We use:</p>
             <ul>
-                <li>Provide our services to you</li>
-                <li>Comply with legal obligations</li>
-                <li>Resolve disputes and enforce our agreements</li>
+                <li><strong>SharedPreferences:</strong> Local storage for app settings (stays on your device)</li>
+                <li><strong>Amplitude SDK:</strong> Anonymous usage tracking (see section 3.3)</li>
+                <li><strong>AdMob SDK:</strong> Ad serving and tracking (managed by Google)</li>
             </ul>
-            
-            <p>When we no longer need your personal information, we will either delete it or anonymize it so it cannot be used to identify you. If deletion is not immediately possible (e.g., due to backup systems), we will securely store your information and isolate it from further processing.</p>
-        </section>
+        </div>
 
-        <section id="your-rights" class="section">
-            <h2>5. Your Privacy Rights</h2>
+        <div class="section">
+            <h2>12. International Data Transfers</h2>
             
-            <p>Depending on your location, you may have the following rights regarding your personal information:</p>
+            <p>The App is operated from the United States. By using the App, you consent to the transfer and processing of data in the United States.</p>
             
+            <p>Our third-party services (Google, Amplitude) may process data in various countries. They maintain appropriate safeguards for international data transfers.</p>
+        </div>
+
+        <div class="section">
+            <h2>13. California Privacy Rights (CCPA)</h2>
+            
+            <p>If you are a California resident, you have additional rights:</p>
             <ul>
-                <li><strong>Access:</strong> Request a copy of the personal information we have about you</li>
-                <li><strong>Correction:</strong> Request correction of inaccurate or incomplete information</li>
-                <li><strong>Deletion:</strong> Request deletion of your personal information</li>
-                <li><strong>Portability:</strong> Request transfer of your data to another service</li>
-                <li><strong>Opt-out:</strong> Opt out of certain data processing activities</li>
-                <li><strong>Non-discrimination:</strong> Exercise your rights without facing discrimination</li>
+                <li>Right to know what personal information is collected</li>
+                <li>Right to delete personal information</li>
+                <li>Right to opt-out of data sales (we don't sell data)</li>
+                <li>Right to non-discrimination</li>
             </ul>
-            
-            <div class="contact-info">
-                <h3>How to Exercise Your Rights</h3>
-                <p>To exercise any of these rights, you can:</p>
-                <ul>
-                    <li>Submit a <a href="https://app.termly.io/notify/2b18244f-be1e-4cea-8214-7e26ec78e962" target="_blank">data subject access request</a></li>
-                    <li>Email us at <a href="mailto:mapleleafinc23@gmail.com">mapleleafinc23@gmail.com</a></li>
-                    <li>Use the contact information provided below</li>
-                </ul>
-                <p>We will respond to your request within 30 days and may require verification of your identity.</p>
-            </div>
-        </section>
 
-        <section id="data-security" class="section">
-            <h2>6. Data Security</h2>
+            <p><strong>For California residents:</strong> We have not sold personal information in the past 12 months and will not do so in the future.</p>
+        </div>
+
+        <div class="section">
+            <h2>14. European Privacy Rights (GDPR)</h2>
             
-            <p>We implement appropriate technical and organizational security measures to protect your personal information against unauthorized access, alteration, disclosure, or destruction. These measures include:</p>
-            
+            <p>If you are in the European Economic Area (EEA), you have rights under GDPR:</p>
             <ul>
-                <li>Encryption of data in transit and at rest</li>
-                <li>Regular security assessments and updates</li>
-                <li>Access controls and authentication</li>
-                <li>Staff training on data protection</li>
+                <li>Right to access your personal data</li>
+                <li>Right to rectification</li>
+                <li>Right to erasure ("right to be forgotten")</li>
+                <li>Right to restrict processing</li>
+                <li>Right to data portability</li>
+                <li>Right to object to processing</li>
             </ul>
-            
-            <p>However, no method of transmission over the internet or electronic storage is 100% secure. While we strive to protect your personal information, we cannot guarantee its absolute security.</p>
-        </section>
 
-        <section id="children-privacy" class="section">
-            <h2>7. Children's Privacy</h2>
-            
-            <p>Our app is not intended for children under 13 years of age. We do not knowingly collect personal information from children under 13. If we become aware that we have collected personal information from a child under 13, we will take steps to delete such information promptly.</p>
-            
-            <p>If you are a parent or guardian and believe your child has provided us with personal information, please contact us immediately.</p>
-        </section>
+            <p>Since we collect minimal anonymous data, most of these rights are automatically satisfied (we don't have your personal data to access or delete).</p>
+        </div>
 
-        <section id="updates" class="section">
-            <h2>8. Policy Updates</h2>
+        <div class="section">
+            <h2>15. Changes to This Privacy Policy</h2>
             
-            <p>We may update this Privacy Policy from time to time to reflect changes in our practices or applicable laws. When we make material changes, we will:</p>
-            
+            <p>We may update this Privacy Policy from time to time. We will notify you of material changes by:</p>
             <ul>
-                <li>Update the "Last Updated" date at the top of this policy</li>
-                <li>Notify you through the app or via email</li>
-                <li>Post a prominent notice in our app</li>
+                <li>Updating the "Last Updated" date</li>
+                <li>Posting a notice in the App</li>
+                <li>Sending an in-app notification</li>
             </ul>
-            
-            <p>We encourage you to review this Privacy Policy periodically to stay informed about how we protect your information.</p>
-        </section>
 
-        <section id="contact" class="section">
-            <h2>9. Contact Us</h2>
-            
-            <div class="contact-info">
-                <h3>Questions About This Privacy Policy?</h3>
-                <p>If you have any questions, concerns, or requests regarding this Privacy Policy or our data practices, please contact us:</p>
-                
-                <p><strong>Email:</strong> <a href="mailto:mapleleafinc23@gmail.com">mapleleafinc23@gmail.com</a></p>
-                <p><strong>Company:</strong> Maple Leaf Inc</p>
-                <p><strong>Address:</strong><br>
-                1500 Sparkman Dr NW #30c<br>
-                Huntsville, AL 35816<br>
-                United States</p>
-            </div>
-        </section>
+            <p>Your continued use of the App after changes indicates acceptance of the updated policy.</p>
+        </div>
 
-        <footer class="footer">
-            <p>&copy; 2024 Maple Leaf Inc. All rights reserved.</p>
-            <p>This Privacy Policy is effective as of January 2024.</p>
-        </footer>
+        <div class="contact-box">
+            <h3>16. Contact Us</h3>
+            <p>For questions about this Privacy Policy or our data practices:</p>
+            <p><strong>Developer Email:</strong> <a href="mailto:mapleleafinc23@gmail.com">mapleleafinc23@gmail.com</a></p>
+            <p><strong>Website:</strong> <a href="https://mapleleafinc23.github.io/bibleapp/" target="_blank">https://mapleleafinc23.github.io/bibleapp/</a></p>
+            <p><strong>Terms of Service:</strong> <a href="https://mapleleafinc23.github.io/bibleapp-tos/" target="_blank">https://mapleleafinc23.github.io/bibleapp-tos/</a></p>
+            <p style="margin-top: 15px; font-size: 0.9em; color: #666;">
+                Bible Launcher is a personal project developed by an independent developer.
+                We respond to inquiries on a best-effort basis.
+            </p>
+        </div>
+
+        <div class="footer">
+            <p>&copy; 2025 Bible Launcher. All rights reserved.</p>
+            <p><a href="https://mapleleafinc23.github.io/bibleapp-tos/">Terms of Service</a> | <a href="#top">Back to Top</a></p>
+        </div>
     </div>
 
     <a href="#" class="back-to-top">↑ Back to Top</a>
@@ -413,13 +482,10 @@
         document.querySelectorAll('a[href^="#"]').forEach(anchor => {
             anchor.addEventListener('click', function (e) {
                 e.preventDefault();
-                const target = document.querySelector(this.getAttribute('href'));
-                if (target) {
-                    target.scrollIntoView({
-                        behavior: 'smooth',
-                        block: 'start'
-                    });
-                }
+                window.scrollTo({
+                    top: 0,
+                    behavior: 'smooth'
+                });
             });
         });
 
@@ -434,3 +500,4 @@
     </script>
 </body>
 </html>
+
