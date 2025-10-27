@@ -178,7 +178,7 @@
         <h1>Privacy Policy</h1>
         <div class="subtitle">
             Bible Launcher<br>
-            Last Updated: October 19, 2025
+            Last Updated: October 27, 2025
         </div>
 
         <div class="intro">
@@ -193,12 +193,13 @@
             <h2>1. Information We Collect</h2>
             
             <h3>1.1 Anonymous Usage Data</h3>
-            <p>We collect anonymous usage data through <strong>Amplitude Analytics</strong> to improve the App:</p>
+            <p>We collect anonymous usage data through <strong>Amplitude Analytics</strong> and <strong>Facebook Analytics</strong> to improve the App:</p>
             <ul>
-                <li><strong>Feature usage:</strong> Which features you use (Bible reading, prayers, AI generator)</li>
+                <li><strong>Feature usage:</strong> Which features you use (Bible reading, prayers, Prayer Helper)</li>
                 <li><strong>Interaction patterns:</strong> How you navigate the app</li>
                 <li><strong>Technical data:</strong> Device type, Android version, app version</li>
                 <li><strong>Performance data:</strong> Crash reports, load times, errors</li>
+                <li><strong>Approximate location:</strong> Country, region, and city derived from IP address (used for analytics only)</li>
                 <li><strong>Anonymous user ID:</strong> A randomly generated ID stored locally on your device</li>
             </ul>
 
@@ -212,7 +213,7 @@
                 <li>Bible bookmarks, highlights, and notes</li>
                 <li>Reading progress and history</li>
                 <li>Prayer streak data</li>
-                <li>AI prayer generation requests and results</li>
+                <li>Prayer Helper generation requests and results</li>
                 <li>App preferences and settings</li>
             </ul>
 
@@ -220,7 +221,7 @@
             <p>We do not collect:</p>
             <ul>
                 <li>Your name, email, or phone number</li>
-                <li>Location data</li>
+                <li>Precise GPS location (we only collect approximate location from IP address)</li>
                 <li>Contacts or personal files</li>
                 <li>Payment information (app is free)</li>
                 <li>Biometric data</li>
@@ -255,7 +256,7 @@
             <p>The App integrates with the following third-party services. Each has its own privacy policy:</p>
 
             <h3>3.1 Google Gemini API</h3>
-            <p><strong>Purpose:</strong> AI prayer generation</p>
+            <p><strong>Purpose:</strong> Prayer Helper (personalized prayer generation)</p>
             <p><strong>Data shared:</strong> Your prayer request text (processed in real-time, not stored)</p>
             <p><strong>Privacy Policy:</strong> <a href="https://policies.google.com/privacy" target="_blank">Google Privacy Policy</a></p>
 
@@ -267,10 +268,15 @@
 
             <h3>3.3 Amplitude Analytics</h3>
             <p><strong>Purpose:</strong> Anonymous usage analytics</p>
-            <p><strong>Data collected:</strong> Anonymous user ID, feature usage, device type</p>
+            <p><strong>Data collected:</strong> Anonymous user ID, feature usage, device type, approximate location (from IP address)</p>
             <p><strong>Privacy Policy:</strong> <a href="https://amplitude.com/privacy" target="_blank">Amplitude Privacy Policy</a></p>
 
-            <h3>3.4 Google Firebase</h3>
+            <h3>3.4 Facebook Analytics</h3>
+            <p><strong>Purpose:</strong> Anonymous usage analytics and event tracking</p>
+            <p><strong>Data collected:</strong> App events, feature usage, device information, approximate location</p>
+            <p><strong>Privacy Policy:</strong> <a href="https://www.facebook.com/privacy/policy/" target="_blank">Facebook Privacy Policy</a></p>
+
+            <h3>3.5 Google Firebase</h3>
             <p><strong>Purpose:</strong> Crash reporting and performance monitoring</p>
             <p><strong>Data collected:</strong> Crash logs, device information</p>
             <p><strong>Privacy Policy:</strong> <a href="https://firebase.google.com/support/privacy" target="_blank">Firebase Privacy</a></p>
@@ -286,8 +292,8 @@
             <p>The App requests the following permissions:</p>
 
             <h3>4.1 INTERNET</h3>
-            <p><strong>Purpose:</strong> AI prayer generation, ads, analytics</p>
-            <p><strong>Required:</strong> Yes (for AI features and ads)</p>
+            <p><strong>Purpose:</strong> Prayer Helper, ads, analytics</p>
+            <p><strong>Required:</strong> Yes (for Prayer Helper features and ads)</p>
 
             <h3>4.2 SYSTEM_ALERT_WINDOW</h3>
             <p><strong>Purpose:</strong> Display prayer overlay reminders at scheduled times</p>
@@ -317,7 +323,7 @@
                 <li>Settings: Stored until you clear app data</li>
             </ul>
 
-            <p><strong>AI Prayer Requests:</strong></p>
+            <p><strong>Prayer Helper Requests:</strong></p>
             <ul>
                 <li>Sent to Google Gemini API in real-time</li>
                 <li>Not stored by us (only cached temporarily in your device)</li>
@@ -372,10 +378,11 @@
 
             <p>We may share anonymous data with:</p>
             <ul>
-                <li><strong>Amplitude:</strong> For anonymous usage analytics</li>
+                <li><strong>Amplitude:</strong> For anonymous usage analytics and approximate location</li>
+                <li><strong>Facebook Analytics:</strong> For anonymous event tracking</li>
                 <li><strong>Google (AdMob):</strong> For ad serving (they collect device IDs)</li>
                 <li><strong>Google (Firebase):</strong> For crash reporting</li>
-                <li><strong>Google (Gemini API):</strong> For AI prayer generation (your requests are processed but not stored by us)</li>
+                <li><strong>Google (Gemini API):</strong> For Prayer Helper (your requests are processed but not stored by us)</li>
             </ul>
 
             <p>Legal Disclosure: We may disclose information if required by law or to protect our rights and safety.</p>
@@ -388,7 +395,7 @@
 
             <p>Specifically:</p>
             <ul>
-                <li>We use Google Gemini API only for AI prayer generation</li>
+                <li>We use Google Gemini API only for Prayer Helper (personalized prayer generation)</li>
                 <li>Your prayer requests are sent to Google's servers for processing</li>
                 <li>We do not store or share your prayer requests beyond this API call</li>
                 <li>Google may process this data according to their privacy policy</li>
